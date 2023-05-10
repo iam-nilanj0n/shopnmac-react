@@ -1,0 +1,10 @@
+.HeaderComponent{
+    height: 100px;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.HeaderComponent section{
+    margin: 40px 50px;
+    border: 1px solid black;
+}
