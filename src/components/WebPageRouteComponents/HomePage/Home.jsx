@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import HeaderComponent from '../../LayOutComponents/HeaderComponent/HeaderComponent.jsx';
 import FooterComponent from '../../LayOutComponents/FooterComponent/FooterComponent.jsx';
 

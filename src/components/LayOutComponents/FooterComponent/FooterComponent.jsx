@@ -1,5 +1,8 @@
 import React from 'react';
 import './FooterComponent.css';
+import facebookLogo from '../../../assets/facebookIcon.png' ;
+import instagramLogo from '../../../assets/instagramIcon.png'; 
+import youTubeLogo from '../../../assets/youTubeIcon.png'; 
 
 export default function FooterComponent() {
   return (
@@ -44,7 +47,11 @@ export default function FooterComponent() {
             <div></div>
             <p>Refund Policy</p>
           </div>
-          <div className='FooterComponentBottomPart-Three'></div>
+          <div className='FooterComponentBottomPart-Three'>
+            <img src={facebookLogo} alt='facebookLogo' className='facebookLogo'/>
+            <img src={instagramLogo} alt='instagramLogo' className='instagramLogo'/>
+            <img src={youTubeLogo} alt='youTubeLogo' className='youTubeLogo'/>
+          </div>
         </div>
         <div className='FooterComponentSeparate'></div>
 
