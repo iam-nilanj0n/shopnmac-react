@@ -1,10 +1,135 @@
-.HeaderComponent{
+.HeaderComponent {
     height: 100px;
     width: 100vw;
     border: 1px solid black;
 }
 
-.HeaderComponent section{
-    margin: 40px 50px;
+.HeaderComponent section {
+    margin: 17px 44px 9px 50px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shopnmacLogo {
+    width: 144px;
+    height: 55px;
+    border: 1px solid black;
+}
+
+.shopnmacLogo:hover {
+    cursor: pointer;
+}
+
+.headerParts {
+    margin-left: 55px;
+}
+
+.headerPartsTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerPartsTop button {
+    font-size: 16px;
+}
+
+.Call-Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.phoneLogo {
+    transform: rotate(40deg);
+}
+
+.headerPartsSeparate {
+    height: 2px;
+    width: 800px;
+    background-color: gray;
+    margin: 0 0 3px 0;
+}
+
+.headerPartsBottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AllCategories-Button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.hambergerMenu {
+    height: 16px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hambergerMenuLine {
+    width: 25px;
+    height: 2px;
+    background-color: gray;
+}
+
+.BRANDS-Button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.sortDownIcon {
+    height: 14px;
+    width: 8px;
+    margin-left: 12px;
+}
+
+.cartAndLogin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cartAndLogin button {
+    font-size: 16px;
+    font-weight: bolder;
+    color: red;
+    background-color: white;
+    border: 0;
+}
+
+.cartAndLogin button:hover{
+    cursor: pointer;
+}
+
+.cartItems-Button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cartIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+}
+
+.cartLoginSeparate{
+    margin: 0 25px;
+    height: 44px;
+    width: 2px;
+    background-color: rgb(46, 46, 46);
 }
