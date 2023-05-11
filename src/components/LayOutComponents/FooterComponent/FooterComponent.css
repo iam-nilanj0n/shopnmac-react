@@ -1,10 +1,66 @@
-.FooterComponent{
-    height: 100px;
+.FooterComponent {
+    height: 365px;
     width: 100vw;
+    background-color: rgb(38, 39, 43);
+}
+
+.FooterComponent section {
+    margin: 50px 50px;
     border: 1px solid black;
 }
 
-.FooterComponent section{
-    margin: 40px 50px;
-    border: 1px solid black;
+@font-face {
+    font-family: 'MyFont';
+    src: url("../../../fonts/Butler_Light.otf") format("opentype");
+}
+
+
+.FooterComponentTopPart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.FooterComponentTopPart div p {
+    font-size: 14px;
+    color: RGB(198, 198, 198);
+}
+
+.FooterComponentTopPart div .heading {
+    font-family: 'MyFont', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+/* stayUpToDate is here */
+
+.stayUpToDate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+@font-face {
+    font-family: 'Helvetica_font';
+    src: url("../../../fonts/Helvetica_Neue_Regular.otf") format("opentype");
+}
+.stayUpToDate input {
+    width: 420px;
+    background-color: rgb(38, 39, 43);
+    border: 0;
+    border-bottom: 2px solid RGB(198, 198, 198);
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: rgb(161, 161, 161);
+    font-family: "Helvetica_font",sans-serif;
+}
+
+.stayUpToDate button{
+    background-color: #3BA9E0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }

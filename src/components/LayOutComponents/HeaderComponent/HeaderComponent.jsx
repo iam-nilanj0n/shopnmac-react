@@ -5,6 +5,7 @@ import phoneLogo from '../../../assets/phone-icon.png';
 import sortDownIcon from '../../../assets/sortDownIcon.png';
 import searchGlass from '../../../assets/searchGlass.png';
 import cartIcon from '../../../assets/add-to-basket.png';
+import shopnmacLogo from '../../../assets/shopnmac-logo.png';
 
 export default function HeaderComponent() {
   const navigate = useNavigate()
@@ -12,14 +13,14 @@ export default function HeaderComponent() {
   return (
     <div className='HeaderComponent'>
       <section>
-        <img src='/' alt='shopnmacLogo' className='shopnmacLogo' onClick={(e) => navigate('/')} />
+        <img  src={shopnmacLogo} alt='shopnmacLogo' className='shopnmacLogo' onClick={(e) => navigate('/')} />
 
         <div className='headerParts'>
-          
+
           <div className='headerPartsTop'>
-            <button className='DEALS-Button'>DEALS</button>
-            <button className='CONTACT-US-Button'>CONTACT US</button>
-            <button className='BLOG-Button'>BLOG</button>
+            <button className='DEALS-Button' onClick={(e)=>navigate('/deals')}>DEALS</button>
+            <button className='CONTACT-US-Button' onClick={(e)=>navigate('/contact-us')}>CONTACT US</button>
+            <button className='BLOG-Button' onClick={(e)=>navigate('/blog')}>BLOG</button>
             <button className='Call-Button'>
               <img src={phoneLogo} alt='phoneLogo' className='phoneLogo' />
               <span>(441)293-5476</span>
