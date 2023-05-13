@@ -12,12 +12,30 @@
 .ProductDisplayCard section{
     margin: 0;
 }
-
+/* ProductDisplayCardTop is here */
 .ProductDisplayCardTop{
     height: 338px;
     background-color: white;
     /* border-radius: 15px 15px 0 0; */
 }
+.ProductDisplayCardTop-Container{
+    border: 1px solid black;
+}
+
+.heartAndEye{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.heartIcon{
+    height: 3vh;
+    width: 3vh;
+    margin-bottom: 3vh;
+}
+
 /* ProductDisplayCardBotton is here */
 .ProductDisplayCardBotton{
     height: 182px;

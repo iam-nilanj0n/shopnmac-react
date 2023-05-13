@@ -1,15 +1,21 @@
 import React from 'react';
 import './ProductDisplayCard.css';
 import starIcon from '../../../assets/star-Icon.png';
+import heartIcon from '../../../assets/heart-Icon.png';
 
-export default function ProductDisplayCard() {
+export default function ProductDisplayCard({ productPic, productID, productName, productPrice }) {
     return (
         <div className='ProductDisplayCard'>
             <section>
 
                 <div className='ProductDisplayCardTop'>
-                    <img src='/' alt='productImage' className='productImage' />
-                    <i class="fa fa-eye"></i>
+                    <div className='ProductDisplayCardTop-Container'>
+                        <img src='/' alt='productImage' className='productImage' />
+                        <div className='heartAndEye'>
+                            <img src={heartIcon} alt='heartIcon' className='heartIcon' />
+                            <i class="fa fa-eye eyeIcon"></i>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='ProductDisplayCardBotton'>
@@ -20,7 +26,7 @@ export default function ProductDisplayCard() {
                         <p className='productID'>ID-001</p>
                         <div className='productRatingBox'>
                             <p>0</p>
-                            <img src={starIcon} alt='starIcon' className='starIcon'/>
+                            <img src={starIcon} alt='starIcon' className='starIcon' />
                             <div className='productRatingSeparate'></div>
                             <p>0</p>
                         </div>
