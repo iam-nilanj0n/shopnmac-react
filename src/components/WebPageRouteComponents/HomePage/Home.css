@@ -21,7 +21,7 @@
 
 .POPULAR-PRODUCTS-Heading {
     font-size: 36px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #CDCDCD;
     font-family: 'Butler_Light', sans-serif;
     margin-bottom: 3.7vh;
 }
@@ -29,8 +29,8 @@
 .addDisplay {
     height: 230px;
     background-color: white;
-    border-top: 3px solid gray;
-    border-bottom: 3px solid gray;
+    border-top: 3px solid #CDCDCD;
+    border-bottom: 3px solid #CDCDCD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #CDCDCD;
     margin-bottom: 3.7vh;
 }
 
