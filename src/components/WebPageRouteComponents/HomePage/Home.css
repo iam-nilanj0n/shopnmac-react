@@ -1,0 +1,133 @@
+.Home {
+    overflow-x: hidden;
+}
+
+.popularProducts {
+    width: auto;
+    height: 89vh;
+    background-color: #F5F5F5;
+    padding-top: 46px;
+}
+
+.popularProducts section {
+    margin: 0 50px 39px 50px;
+    /* border: 1px solid black; */
+}
+
+@font-face {
+    font-family: 'Butler_Light';
+    src: url("../../../fonts/Butler_Light.otf") format("opentype");
+}
+
+.POPULAR-PRODUCTS-Heading {
+    font-size: 36px;
+    border-bottom: 2px solid gray;
+    font-family: 'Butler_Light', sans-serif;
+    margin-bottom: 3.7vh;
+}
+
+.addDisplay {
+    height: 230px;
+    background-color: white;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addDisplay section {
+    /* margin: 0 0 40px 0; */
+    border: 1px solid black;
+    height: 146px;
+    width: 80vw;
+}
+
+/* healthAndWellness is here */
+.healthAndWellness {
+    width: auto;
+    height: 89vh;
+    background-color: #F5F5F5;
+    padding-top: 46px;
+}
+
+.healthAndWellness section {
+    margin: 0 50px 39px 50px;
+    /* border: 1px solid black; */
+}
+
+.healthAndWellness-Heading {
+    font-size: 36px;
+    font-family: 'Butler_Light', sans-serif;
+}
+
+.healthAndWellnessTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    margin-bottom: 3.7vh;
+}
+
+.healthAndWellnessTop button {
+    border: 0;
+    background-color: #F5F5F5;
+    font-weight: bolder;
+}
+
+.healthAndWellnessTop .buttonGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7.35vw;
+}
+
+.healthAndWellnessTop .buttonGroup button {
+    font-weight: bolder;
+}
+
+.healthAndWellnessTop .buttonGroup button:hover {
+    cursor: pointer;
+    color: rgb(255, 95, 95);
+}
+
+.healthAndWellnessTop .viewAllButton {
+    margin-left: 44.4vw;
+    font-weight: bolder;
+}
+
+.healthAndWellnessTop .viewAllButton:hover {
+    color: rgb(255, 95, 95);
+    cursor: pointer;
+}
+
+.healthAndWellnessTop .buttonGroup div {
+    height: 2vh;
+    width: 2px;
+    background-color: black;
+    margin: 0 2vw;
+}
+
+/* healthAndWellnessBottom is here */
+.healthAndWellnessBottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.healthAndWellnessBottomLeft {
+    width: 265px;
+    height: 520px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+
+.healthAndWellness-ProductDisplay {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+}

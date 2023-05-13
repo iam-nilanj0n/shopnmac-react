@@ -1,0 +1,37 @@
+.BannerDisplay section{
+    /* height: 499px; */
+    height: 53vh;
+    width: auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 5vh 0; */
+    display: flex;
+    align-items: center;
+}
+
+.arrowControlPart{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin: 0 6.8vw 0 6.8vw;
+}
+
+.arrowControlPart img{
+    height: 4vh;
+    width: 4vh;
+}
+
+.arrowControlPart img:hover{
+    cursor: pointer;
+}
+
+.lesserThan{
+    margin: 0 82vw 0 0;
+}
+
+/* .BannerPic-One, .BannerPic-Two, .BannerPic-Three{
+    transform: translatex(-10vw);
+    transition: 2s;
+} */

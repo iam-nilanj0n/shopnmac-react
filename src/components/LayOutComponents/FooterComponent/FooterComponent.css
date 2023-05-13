@@ -13,7 +13,7 @@
 }
 
 @font-face {
-    font-family: 'MyFont';
+    font-family: 'Butler_Light';
     src: url("../../../fonts/Butler_Light.otf") format("opentype");
 }
 
@@ -33,9 +33,10 @@
 }
 
 .FooterComponentTopPart div .heading {
-    font-family: 'MyFont', sans-serif;
+    font-family: 'Butler_Light', sans-serif;
     color: white;
     font-size: 20px;
+    word-spacing: 2px;
 }
 
 /* stayUpToDate is here */
