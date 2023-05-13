@@ -1,0 +1,44 @@
+.ShopMain{
+    width: auto;
+    height: auto;
+    background-color: #F5F5F5;
+}
+
+
+.ShopMain .ShopMainSection{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin: 0 0px 0 20px;
+}
+
+.ShopMainTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0 30px 0;
+}
+
+.ShopProductDisplay {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.ShopProductDisplay .ProductDisplayCard{
+    margin-bottom: 16px;
+}
+
+.ShopProductDisplayController{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 52px 0 100px 0;
+}
+
+.ShopProductDisplayController button{
+    padding: 10px 15px;
+}

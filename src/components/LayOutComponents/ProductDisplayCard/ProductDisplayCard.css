@@ -1,4 +1,4 @@
-.ProductDisplayCard{
+.ProductDisplayCard {
     width: 265px;
     height: auto;
     border: 3px solid white;
@@ -6,78 +6,99 @@
     overflow: hidden;
 }
 
-.ProductDisplayCard:hover{
+.ProductDisplayCard:hover {
     cursor: pointer;
 }
-.ProductDisplayCard section{
+
+.ProductDisplayCard section {
     margin: 0;
 }
+
 /* ProductDisplayCardTop is here */
-.ProductDisplayCardTop{
+.ProductDisplayCardTop {
     height: 338px;
     background-color: white;
     /* border-radius: 15px 15px 0 0; */
-}
-.ProductDisplayCardTop-Container{
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.heartAndEye{
+.ProductDisplayCardTop-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductDisplayCardTop-Container .productImage {
+    /* border: 1px solid black; */
+    height: 215px;
+    width: 215px;
+}
+
+.heartAndEye {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
+    margin: 0vh 0 20vh 14.5vw;
 }
 
-.heartIcon{
+.heartIcon {
     height: 3vh;
     width: 3vh;
     margin-bottom: 3vh;
 }
 
 /* ProductDisplayCardBotton is here */
-.ProductDisplayCardBotton{
+.ProductDisplayCardBotton {
     height: 182px;
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
     align-items: center;
 }
-.ProductDisplayCardBotton:hover{
+
+.ProductDisplayCardBotton:hover {
     background-color: white;
 }
-.ProductDisplayCardBotton button{
+
+.ProductDisplayCardBotton button {
     padding: 7px 1.63vw;
     border: 1px solid #3BA9E0;
     font-size: 16px;
     border-radius: 4px;
     margin: 11px 0 20.8px 0;
 }
-.ProductDisplayCardBotton button:hover{
+
+.ProductDisplayCardBotton button:hover {
     background-color: #3BA9E0;
     color: white;
     transition: 0.5s;
     cursor: pointer;
 }
-.productPrice{
+
+.productPrice {
     font-size: 14px;
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgba(113, 113, 113, 1);
     font-weight: bolder;
     margin-bottom: 13px;
 }
 
-.productName{
+.productName {
     margin-bottom: 25px;
 }
-.productIdAndRating{
+
+.productIdAndRating {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.productRatingBox{
+
+.productRatingBox {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -88,19 +109,21 @@
     margin-left: 9.7vw;
 }
 
-.productID{
-    font-size: 12px;
-}
-.productRatingBox p{
+.productID {
     font-size: 12px;
 }
 
-.starIcon{
+.productRatingBox p {
+    font-size: 12px;
+}
+
+.starIcon {
     height: 2vh;
     width: 2vh;
     margin: 0 2px 1px 2px;
 }
-.productRatingSeparate{
+
+.productRatingSeparate {
     height: 2vh;
     width: 1px;
     background-color: black;

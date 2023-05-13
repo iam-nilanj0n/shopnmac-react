@@ -3,17 +3,23 @@ import './ProductDisplayCard.css';
 import starIcon from '../../../assets/star-Icon.png';
 import heartIcon from '../../../assets/heart-Icon.png';
 
+
 export default function ProductDisplayCard({ productPic, productID, productName, productPrice }) {
+
     return (
         <div className='ProductDisplayCard'>
             <section>
 
                 <div className='ProductDisplayCardTop'>
-                    <div className='ProductDisplayCardTop-Container'>
-                        <img src='/' alt='productImage' className='productImage' />
-                        <div className='heartAndEye'>
+                    <div className='ProductDisplayCardTop-Container' >
+                        <img
+                            src='https://api.shopnmac.com/upload/product/thumbnail/j0iaZscaeH2Oc4wpRNc5nB7xspAbXRnzxnELJAT7.jpg?w=360'
+                            alt='productImage'
+                            className='productImage'
+                        />
+                        <div className='heartAndEye' >
                             <img src={heartIcon} alt='heartIcon' className='heartIcon' />
-                            <i class="fa fa-eye eyeIcon"></i>
+                            <i className="fa fa-eye eyeIcon"></i>
                         </div>
                     </div>
                 </div>
