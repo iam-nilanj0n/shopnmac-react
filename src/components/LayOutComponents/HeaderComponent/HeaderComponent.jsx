@@ -30,7 +30,7 @@ export default function HeaderComponent() {
           <div className='headerPartsSeparate'></div>
 
           <div className='headerPartsBottom'>
-            <button className='AllCategories-Button'>
+            <button className='AllCategories-Button' onClick={(e)=>navigate('/shop/category/health-wellness')}>
               <div className='hambergerMenu'>
                 <div className='hambergerMenuLine'></div>
                 <div className='hambergerMenuLine'></div>

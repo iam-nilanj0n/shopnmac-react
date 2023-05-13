@@ -84,7 +84,9 @@
     border: 0;
     background-color: white;
 }
-
+.AllCategories-Button:hover{
+    cursor: pointer;
+}
 .hambergerMenu {
     height: 16px;
     width: 25px;

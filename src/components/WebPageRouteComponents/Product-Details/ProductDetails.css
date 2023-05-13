@@ -1,0 +1,25 @@
+.CustomerChoiceHeading{
+    height: auto;
+}
+.CustomerChoice{
+    margin: 0 0 50px 50px;
+}
+.CustomerChoiceProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@font-face {
+    font-family: 'Butler_Light';
+    src: url("../../../fonts/Butler_Light.otf") format("opentype");
+}
+
+.CustomerChoiceHeading {
+    font-size: 36px;
+    border-bottom: 3px solid #CDCDCD;
+    font-family: 'Butler_Light', sans-serif;
+    margin-bottom: 3.7vh;
+}

@@ -2,12 +2,13 @@ import React from 'react';
 import './ProductDisplayCard.css';
 import starIcon from '../../../assets/star-Icon.png';
 import heartIcon from '../../../assets/heart-Icon.png';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function ProductDisplayCard({ productPic, productID, productName, productPrice }) {
-
+    const navigate = useNavigate()
     return (
-        <div className='ProductDisplayCard'>
+        <div className='ProductDisplayCard' onClick={(e)=>navigate('/product-details')}>
             <section>
 
                 <div className='ProductDisplayCardTop'>
