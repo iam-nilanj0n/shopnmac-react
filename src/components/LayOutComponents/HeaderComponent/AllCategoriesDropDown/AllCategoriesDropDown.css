@@ -1,0 +1,26 @@
+.AllCategoriesDropDown{
+    position: absolute;
+    z-index: +1;
+    background-color: white;
+    margin-top: 11vh;
+    border: 0.5px solid #CDCDCD;
+    padding: 2vh 1vw 2vh 1vw;
+    border-radius: 0 5px 5px 5px;
+    width: 20vw;
+}
+
+.AllCategoriesDropDown-TopLeftCorner{
+    height: 2vh;
+    width: 2vh;
+    border-top: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+    position: absolute;
+    margin: -3.2vh 0 0 -0.8vw;
+    rotate: 45deg;
+    z-index: +2;
+    background-color: white;
+}
+
+.AllCategoriesDropDown-ShopLink{
+    text-decoration: none;
+}

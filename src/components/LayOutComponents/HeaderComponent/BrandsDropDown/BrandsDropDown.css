@@ -1,0 +1,54 @@
+.BrandsDropDown{
+    position: absolute;
+    z-index: +1;
+    background-color: white;
+    margin-top: 46vh;
+    border: 0.5px solid #CDCDCD;
+    padding: 2vh 1vw 2vh 1vw;
+    border-radius: 0 5px 5px 5px;
+    width: auto;
+    height: auto;
+}
+.BrandsDropDown-Diplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.BrandsDropDown-PopularBrandsDiv-Heading{
+    font-size: 20px;
+    margin-bottom: 1vh;
+}
+.BrandsDropDown-DiplaySeparate{
+    width: 1px;
+    background-color: #CDCDCD;
+    height: 37vh;
+    margin: 0 2vw;
+}
+
+.BrandsDropDown-BrandsDiv{
+    width: auto;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.BrandsDropDown-BrandsDiv-Heading{
+    font-size: 20px;
+    margin-bottom: 1vh;
+}
+.BrandsDropDown-BrandsDiv .DropDownMenuElement{
+    margin-bottom: 1vh;
+}
+.BrandsDropDown-TopLeftCorner{
+    height: 2vh;
+    width: 2vh;
+    border-top: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+    position: absolute;
+    margin: -3.2vh 0 0 -0.8vw;
+    rotate: 45deg;
+    z-index: +2;
+    background-color: white;
+}

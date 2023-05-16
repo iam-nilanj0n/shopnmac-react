@@ -7,6 +7,8 @@ import Deals from './components/WebPageRouteComponents/deals/Deals';
 import ContactUs from './components/WebPageRouteComponents/contact-us/ContactUs';
 import Blog from './components/WebPageRouteComponents/blog/blog';
 import ProductDetails from './components/WebPageRouteComponents/Product-Details/ProductDetails';
+import Cart from './components/WebPageRouteComponents/Cart/Cart';
+import LoginRegistration from './components/WebPageRouteComponents/LoginRegistration/LoginRegistration';
 
 
 
@@ -21,6 +23,8 @@ const App = () => {
           <Route path='/contact-us' element={<ContactUs/>}/>
           <Route path='/blog' element={<Blog/>}/>
           <Route path='/product-details' element={<ProductDetails/>}/>
+          <Route path='/cart' element={<Cart/>} />
+          <Route path='/login-registration' element={<LoginRegistration/>}/>
         </Routes>
       </section>
     </>

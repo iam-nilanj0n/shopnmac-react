@@ -1,0 +1,83 @@
+.LoginRegistration-Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+
+.LoginDiv,
+.RegistrationDiv,
+.ForgetPasswordDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginDiv-InputBox,
+.RegistrationDiv-InputBox,
+.ForgetPasswordDiv-InputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.LoginDiv-InputBox label,
+.RegistrationDiv-InputBox label,
+.ForgetPasswordDiv-InputBox label {
+    margin: 2vh 0 1vh 0;
+}
+
+.LoginDiv-InputBox input,
+.RegistrationDiv-InputBox input,
+.ForgetPasswordDiv-InputBox input {
+    border: 1px solid #CCCCCC;
+    border-radius: 1.5vh;
+    width: 34.5vw;
+    background-color: #f5f5f5;
+    padding: 2vh 0 2vh 2vw;
+}
+
+.SignIn-Button,
+.Registration-Button,
+.Submit-Button {
+    width: 36.5vw;
+    padding: 1.5vh 0;
+    color: white;
+    background-color: #BF3FF5;
+    border: 0;
+    border-radius: 2.75vh;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 2vh 0;
+}
+
+.SignIn-Button:hover,
+.Registration-Button:hover,
+.Submit-Button:hover {
+    cursor: pointer;
+    background-color: #9431bf;
+}
+
+.forgetPassword {
+    margin-top: 2vh;
+}
+
+.forgetPassword:hover, .createOne:hover{
+    cursor: pointer;
+}
+
+.Cancel-Button {
+    border: 0;
+    background-color: #ffffff00;
+    margin-top: 5vh;
+}
+
+.Cancel-Button:hover {
+    cursor: pointer;
+    color: rgb(72, 72, 255);
+}

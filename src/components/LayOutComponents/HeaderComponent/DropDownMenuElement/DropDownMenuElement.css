@@ -1,0 +1,16 @@
+.DropDownMenuElement{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+/* The element to apply the animation to */
+.DropDownMenuElement-Text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: lighter;
+}
