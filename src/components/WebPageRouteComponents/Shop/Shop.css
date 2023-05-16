@@ -19,7 +19,9 @@
     align-items: center;
     margin: 80px 0 30px 0;
 }
-
+.ShopMainTop select{
+    margin-left: 65vw;
+}
 .ShopProductDisplay {
     display: grid;
     grid-template-columns: repeat(5,auto);

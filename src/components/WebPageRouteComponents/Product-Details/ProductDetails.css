@@ -1,10 +1,201 @@
-.CustomerChoiceHeading{
+.ProductDetailsMain {
+    height: auto;
+    /* background-color: #F5F5F5; */
+}
+
+.ProductDetailsMain-SectionTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ProductDetailsMain-SectionTopHeading{
+    margin: 6vh 0 3vh 1vw;
+}
+
+.productDispalyAndDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.productDispalyAndDetails-Left {
+    height: 572px;
+    width: 572px;
+    border: 1px solid gray;
+}
+
+.productDispalyAndDetails-Middle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    margin: 0 0vw 0 3vw;
+}
+
+.productDispalyAndDetails-Middle-Top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.productDetails-RatingBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 8vw;
+    /* border: 1px solid black; */
+    margin-top: 2vh;
+    padding: 0.5vh 0;
+}
+
+.productDetails-RatingBox p{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.productDetails-RatingBoxRating{
+    margin-left: 0.5vw;
+}
+
+.productDispalyAndDetails-Middle-Bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: 1px solid #CDCDCD;
+    padding: 2vh 0;
+    border-bottom: 1px solid #CDCDCD;
+    margin: 2vh 0;
+}
+.productDetails-WishList{
+    background-color: white;
+    border: 0;
+    margin: 1vh 0;
+}
+.productShare-Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.productShare-Buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1vw;
+    width: 10vw;
+}
+
+.productShare-Buttons button{
+    background-color: white;
+    border: 0;
+}
+.productDetails-ReviewButton{
+    background-color: #DD894D;
+    color: white;
+    border: 0;
+    padding: 1vh 1vw;
+    font-weight: bolder;
+}
+
+/* productDispalyAndDetails-Right-AddToCartBox is here */
+.productDispalyAndDetails-Right-AddToCartBox{
+    padding: 10px;
+    border: 0.75px solid #CDCDCD;
+    border-radius: 7.5px;
+    overflow: hidden;
+    height: 260px;
+    width: 292px;
+    margin-left: 5vw;
+}
+.productDispalyAndDetails-Right-Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F5F5F5;
+    padding: 5px;
+}
+
+.productDispalyAndDetails-Right-Heading .span2{
+    color: rgb(255, 82, 82);
+    margin-left: 1vw;
+}
+
+.InStock{
+    color: green;
+    margin: 3vh 0 1vh 0  ;
+}
+.productItemCount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: white;
+    justify-content: space-between;
+    width: 18vw;
+    padding: 2vh 1vh;
+}
+
+.productItemCount .minusSign:hover, .productItemCount .plusSign:hover{
+    cursor: pointer;
+}
+
+.productDispalyAndDetails-Right-AddToCartButton{
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 19.1vw;
+    font-size: 1.1rem;
+    padding: 2vh;
+    margin: 2vh 0 0 0;
+}
+.ProductDetailsMain-SectionBottom {
+    width: 100vw;
+    padding: 10vh 0;
+    border-top: 3px solid #CDCDCD;
+    border-bottom: 3px solid #CDCDCD;
+}
+
+.ProductDetailsMain-SectionBottom-Heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 5vh 0;
+}
+.ProductDetailsMain-SectionBottom-Main-Description{
+    width: 50vw;
+}
+.ProductDetailsMain-SectionBottom-Separate {
+    margin: 0 2vw;
+}
+
+.description:hover,
+.AddInfo:hover {
+    cursor: pointer;
+}
+
+.productDispalyAndDetails-Right button {
+    background-color: black;
+    color: white;
+}
+
+/* CustomerChoice is here */
+.CustomerChoiceHeading {
     height: auto;
 }
-.CustomerChoice{
+
+.CustomerChoice {
     margin: 0 0 50px 50px;
+    padding: 13vh 0 2vh 0;
 }
-.CustomerChoiceProducts{
+
+.CustomerChoiceProducts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
