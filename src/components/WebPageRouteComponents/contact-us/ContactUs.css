@@ -1,0 +1,101 @@
+.ContactUs-Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 6vh 0;
+    background-image: linear-gradient(135deg, #07CABD, #098DDF, #A54BF2);
+}
+
+
+/* ContactUs-Main-Left is here */
+.ContactUs-Main-Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 46.85vw;
+    border: 0.5px solid #CDCDCD;
+    background-color: #333333;
+    padding: 4vh 0 4vh 2vw;
+}
+
+.ContactUs-Main-LeftHeading {
+    font-size: 28px;
+    color: white;
+    font-weight: bolder;
+}
+
+.contactUs-formBorder {
+    height: auto;
+    width: auto;
+    padding: 3vh;
+    background-image: linear-gradient(135deg, #07CABD, #A54BF2, #098DDF);
+    margin: 5vh 0 8vh;
+}
+
+.ContactUs-Main-Left .contactUs-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding: 6vh 4vw;
+}
+
+.contactUs-form input {
+    background-color: #F5F8FA;
+    border: 0;
+    border-radius: 3px;
+    padding: 1vh 0 1vh 1vw;
+    width: 20vw;
+    margin-bottom: 2vh;
+}
+
+.contactUs-form textarea {
+    background-color: #F5F8FA;
+    width: 21vw;
+    min-height: 7vh;
+}
+
+.contactUs-form input:focus {
+    outline: 0.5px solid #098DDF;
+}
+
+
+.contactUs-form button {
+    background-color: #FF7A59;
+    color: white;
+    font-weight: bolder;
+    border: 0;
+    padding: 1vh 1vw;
+    margin: 5vh 0 8vh 0;
+}
+
+/* ContactUs-Main-Right is here */
+.ContactUs-Main-Right{
+    background-color: #333333;
+}
+.ContactUs-Main-RightGrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+.ContactUs-Main-RightGrid div {
+    border: 0.5px solid #CDCDCD;
+    height: 35vh;
+    width: auto;
+    padding-left: 1vw;
+}
+
+
+.ContactUs-Main-RightHeadings {
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+.contactUs-Icon {
+    margin: 12vh 0 0 0;
+}
