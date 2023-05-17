@@ -38,12 +38,13 @@ export default function HeaderComponent() {
           <div className='headerPartsBottom'>
             <AllCateGoriesDropDownContext.Provider value={showAllCategories} >
               <button className='AllCategories-Button' onMouseEnter={(e) => setShowAllCategories(true)} onMouseLeave={(e) => setShowAllCategories(false)}>
-                <div className='hambergerMenu'>
+                {/* <div className='hambergerMenu'>
                   <div className='hambergerMenuLine'></div>
                   <div className='hambergerMenuLine'></div>
                   <div className='hambergerMenuLine'></div>
-                </div>
+                </div> */}
                 <span>ALL CATEGORIES</span>
+                <img src={sortDownIcon} alt='sortDownIcon' className='sortDownIcon' />
                 <AllCategoriesDropDown />
               </button>
             </AllCateGoriesDropDownContext.Provider>
