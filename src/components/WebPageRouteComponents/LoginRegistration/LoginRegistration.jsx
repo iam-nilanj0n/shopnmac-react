@@ -47,6 +47,7 @@ export default function LoginRegistration() {
             <HeaderComponent />
             <main className='LoginRegistration-Main'>
 
+                {/* Login form is here */}
                 <div className='LoginDiv' style={loginRegistrationStyle[0]}>
                     <h2>Login</h2>
                     <div className='LoginDiv-InputBox'>
@@ -62,7 +63,9 @@ export default function LoginRegistration() {
                         <span onClick={(e)=>layOutChangeHandler('registration')} className='createOne'>Create One</span>
                     </p>
                 </div>
+                
 
+                {/* registration form is here */}
                 <div className='RegistrationDiv' style={loginRegistrationStyle[1]}>
                     <h2>Create Account</h2>
                     <div className='RegistrationDiv-InputBox'>
@@ -79,6 +82,8 @@ export default function LoginRegistration() {
                     <button className='Cancel-Button' onClick={(e)=>layOutChangeHandler('login')}>Cancel</button>
                 </div>
 
+
+                {/* Forget password form is here */}
                 <div className='ForgetPasswordDiv' style={loginRegistrationStyle[2]}>
                     <h2>RESET YOUR PASSWORD</h2>
                     <p>We will send you an email to reset your password</p>
