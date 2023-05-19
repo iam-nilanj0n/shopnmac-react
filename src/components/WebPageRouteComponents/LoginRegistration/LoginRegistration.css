@@ -67,8 +67,12 @@
     margin-top: 2vh;
 }
 
+.createOne{
+    margin-left: 0.25vw;
+}
 .forgetPassword:hover, .createOne:hover{
     cursor: pointer;
+    color: rgb(72, 72, 255);
 }
 
 .Cancel-Button {
