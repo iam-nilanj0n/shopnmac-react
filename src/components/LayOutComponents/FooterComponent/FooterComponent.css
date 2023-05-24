@@ -1,7 +1,7 @@
 .FooterComponent {
     /* height: 365px; */
     height: auto;
-    width: 100vw;
+    width: auto;
     background-color: rgb(38, 39, 43);
     /* border: 1px solid black; */
     padding: 50px 0 20px 0;
@@ -102,7 +102,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 5vw;
+    /* margin: 0 0 0 5vw; */
+    margin: 0 0 0 76.8px;
 }
 
 .FooterComponentBottomPart-Two div {
@@ -116,7 +117,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 27vw;
+    /* margin-left: 25.9vw; */
+    margin-left: 397.82px;
 }
 
 .facebookLogo{
