@@ -14,17 +14,17 @@ export default function FooterComponent() {
           </div>
           <div>
             <p className='heading'>HEADQUARTERS</p>
-            <p>7 North Shore Road, Devonshire Dv01,</p>
-            <p>Bermuda</p>
+            <p>7 North Shore Road, Devonshire Dv01,
+            <br/>Bermuda</p>
           </div>
           <div>
             <p className='heading'>MAILING ADDRESS</p>
-            <p>NorthShore Medical & Aesthetics Center</p>
-            <p>Ltd.</p>
-            <p>P.O. Box HM1839 Hamilton HMGX,</p>
-            <p>Bermuda</p>
-            <p>Tel: 293-5476</p>
-            <p>Email: info@shopnmac.com</p>
+            <p>NorthShore Medical & Aesthetics Center
+            <br/>Ltd.
+            <br/>P.O. Box HM1839 Hamilton HMGX,
+            <br/>Bermuda
+            <br/>Tel: 293-5476
+            <br/>Email: info@shopnmac.com</p>
           </div>
           <div className='stayUpToDate'>
             <p className='heading'>STAY UP TO DATE</p>
@@ -37,8 +37,8 @@ export default function FooterComponent() {
 
         <div className='FooterComponentBottomPart'>
           <div className='FooterComponentBottomPart-One'>
-            <p>© Copyright 2023, NorthShore Medical & Aesthetics Center Ltd.</p>
-            <p>All Rights Reserved.</p>
+            <p>© Copyright 2023, NorthShore Medical & Aesthetics Center Ltd.
+            <br/>All Rights Reserved.</p>
           </div>
           <div className='FooterComponentBottomPart-Two'>
             <p>Term & Condition</p>

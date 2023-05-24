@@ -21,9 +21,9 @@ export default function DropDownMenuElement(props) {
     <div className='DropDownMenuElement' onClick={(e) => navigate(`${props.NavLink}`)}>
       <p className='DropDownMenuElement-Text' onMouseEnter={(e)=> setBorderBottomStyle(borderBottomHoverStyle)} onMouseLeave={(e)=>setBorderBottomStyle(borderBottomInitialStyle)}>
         {props.Text}
-        <div className='borderBottom' style={borderBottomStyle}>
+        <span className='borderBottom' style={borderBottomStyle}>
 
-        </div>
+        </span>
       </p>
     </div>
   )
