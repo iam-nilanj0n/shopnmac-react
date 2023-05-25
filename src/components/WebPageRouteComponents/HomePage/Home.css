@@ -4,15 +4,31 @@
 
 .popularProducts {
     width: auto;
-    height: 89vh;
+    /* height: 89vh; */
+    height: 671.06px;
     background-color: #F5F5F5;
-    padding-top: 46px;
+    padding-top: 46px;   
 }
 
 .popularProducts section {
     margin: 0 50px 39px 50px;
     /* border: 1px solid black; */
+    
 }
+
+.popularProducts-Div{
+    width: 1417px;
+    /* border: 1px solid black; */
+}
+.Carousel-PopularProducts{
+    width: 1417px;
+    /* border: 1px solid black; */
+}
+/* .Carousel-PopularProducts .ProductDisplayCard{
+    border: 1px solid black;
+} */
+
+
 
 @font-face {
     font-family: 'Butler_Light';
@@ -23,7 +39,8 @@
     font-size: 36px;
     border-bottom: 3px solid #CDCDCD;
     font-family: 'Butler_Light', sans-serif;
-    margin-bottom: 3.7vh;
+    /* margin-bottom: 3.7vh; */
+    margin-bottom: 27.9px;
 }
 
 .addDisplay {
@@ -40,13 +57,15 @@
     /* margin: 0 0 40px 0; */
     border: 1px solid black;
     height: 146px;
-    width: 80vw;
+    /* width: 80vw; */
+    width: 1228.8px;
 }
 
 /* healthAndWellness is here */
 .healthAndWellness {
     width: auto;
-    height: 89vh;
+    /* height: 89vh; */
+    height: 671.06px;
     background-color: #F5F5F5;
     padding-top: 46px;
 }
@@ -66,7 +85,8 @@
     flex-direction: row;
     align-items: center;
     border-bottom: 3px solid #CDCDCD;
-    margin-bottom: 3.7vh;
+    /* margin-bottom: 3.7vh; */
+    margin-bottom: 27.9px;
 }
 
 .healthAndWellnessTop button {
@@ -79,7 +99,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 7.35vw;
+    /* margin-left: 7.35vw; */
+    margin-left: 112.9px;
 }
 
 .healthAndWellnessTop .buttonGroup button {
@@ -92,7 +113,8 @@
 }
 
 .healthAndWellnessTop .viewAllButton {
-    margin-left: 44.4vw;
+    /* margin-left: 44.4vw; */
+    margin-left: 681.98px;
     font-weight: bolder;
 }
 
@@ -102,10 +124,12 @@
 }
 
 .healthAndWellnessTop .buttonGroup div {
-    height: 2vh;
+    /* height: 2vh; */
+    height: 15.08px;
     width: 2px;
     background-color: black;
-    margin: 0 2vw;
+    /* margin: 0 2vw; */
+    margin: 0 30.72px;
 }
 
 /* healthAndWellnessBottom is here */
@@ -120,14 +144,104 @@
     height: 520px;
     border: 3px solid white;
     border-radius: 5px;
-    margin-right: 1vw;
+    /* margin-right: 1vw; */
+    margin-right: 15.36px;
 }
 
 .healthAndWellness-ProductDisplay {
-    display: flex;
-    flex-direction: row;
-    /* border: 1px solid black; */
-    justify-content: space-between;
-    align-items: center;
-    width: 75vw;
+    /* border: 1px solid #000000; */
+    /* width: 75vw; */
+    width: 1152px;
+}
+
+
+
+/* ::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: gray;
+} 
+::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 10px;
+} */
+
+
+/* Responsive design work starts here */
+/* responsive for width 1920px */
+@media (width=1920px){
+    .popularProducts {
+        width: auto;
+        /* height: 89vh; */
+        height: 838.83px;
+        padding-top: 57.5px;   
+    }
+
+    .popularProducts section {
+        margin: 0 62.5px 48.75px 62.5px;
+        /* border: 1px solid black; */
+        
+    }
+
+
+    .Carousel-PopularProducts{
+        width: 1771.25px;
+    }
+    .POPULAR-PRODUCTS-Heading {
+        font-size: 45px;
+        border-bottom: 3px solid #CDCDCD;
+        font-family: 'Butler_Light', sans-serif;
+        /* margin-bottom: 3.7vh; */
+        margin-bottom: 34.875px;
+    }
+
+    .addDisplay {
+        height: 287.5px;
+    }
+
+    .addDisplay section {
+        /* margin: 0 0 40px 0; */
+        border: 1px solid black;
+        height: 182.5px;
+        /* width: 80vw; */
+        width: 1536px;
+    }
+
+    .healthAndWellness {
+        /* height: 89vh; */
+        height: 838.825px;
+        padding-top: 57.5px;
+    }
+
+    .healthAndWellnessTop .buttonGroup {
+        /* margin-left: 7.35vw; */
+        margin-left: 141.125px;
+    }
+
+    .healthAndWellnessTop .viewAllButton {
+        /* margin-left: 44.4vw; */
+        margin-left: 852.475px;
+    }
+
+    .healthAndWellnessTop .buttonGroup div {
+        /* height: 2vh; */
+        height: 18.85px;
+        width: 2.5px;
+        /* margin: 0 2vw; */
+        margin: 0 38.4px;
+    }
+
+    .healthAndWellnessBottomLeft {
+        width: 331.25px;
+        height: 650px;
+        border-radius: 5px;
+        /* margin-right: 1vw; */
+        margin-right: 19.2px;
+    }
+
+    .healthAndWellness-ProductDisplay {
+        /* width: 75vw; */
+        width: 1440px;
+    }
+
 }

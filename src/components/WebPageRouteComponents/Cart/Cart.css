@@ -1,0 +1,56 @@
+.Cart-Main-Heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10vh 0 3vh 0;
+}
+
+
+/* Cart-Main-OneTimePurchase is here */
+.Cart-Main-OneTimePurchase{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 5vh 0;
+}
+
+.OneTimePurchaseProducts-Details{
+    height: 8vh;
+    width: 50vw;
+    border: 5px solid #9DCE62;
+}
+
+
+/* .Cart-Main-SubscribeProduct is here */
+.Cart-Main-SubscribeProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SubscribeProduct-Details{
+    height: 8vh;
+    width: 50vw;
+    border: 5px solid #37ABE1;
+}
+
+/* Cart-ContinueShopping-Button is here */
+.Cart-ContinueShopping-Button{
+    background-color: black;
+    color: white;
+    margin: 5vh 0 5vh 2vw;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Cart-ContinueShopping-Button:hover{
+    cursor: pointer;
+}
+.Cart-ContinueShopping-Button span{
+    margin-left: 5px;
+}

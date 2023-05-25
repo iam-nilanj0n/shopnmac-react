@@ -42,13 +42,17 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin: 0vh 0 20vh 14.5vw;
+    /* margin: 0vh 0 20vh 14.5vw; */
+    margin: 0 0 150.8px 222.72px;
 }
 
 .heartIcon {
-    height: 3vh;
-    width: 3vh;
-    margin-bottom: 3vh;
+    /* height: 3vh; */
+    height: 22.62px;
+    /* width: 3vh; */
+    width: 22.62px;
+    /* margin-bottom: 3vh; */
+    margin-bottom: 22.62px;
 }
 
 /* ProductDisplayCardBotton is here */
@@ -65,7 +69,8 @@
 }
 
 .ProductDisplayCardBotton button {
-    padding: 7px 1.63vw;
+    /* padding: 7px 1.63vw; */
+    padding: 7px 25.04px;
     border: 1px solid #3BA9E0;
     font-size: 16px;
     border-radius: 4px;
@@ -108,7 +113,8 @@
     background-color: white;
     padding: 0 5px;
     border-radius: 3px;
-    margin-left: 9.7vw;
+    /* margin-left: 9.7vw; */
+    margin-left: 148.992px;
 }
 
 .productID {
@@ -120,14 +126,52 @@
 }
 
 .starIcon {
-    height: 2vh;
-    width: 2vh;
+    /* height: 2vh; */
+    height: 15.08px;
+    /* width: 2vh; */
+    width: 15.08px;
     margin: 0 2px 1px 2px;
 }
 
 .productRatingSeparate {
-    height: 2vh;
+    /* height: 2vh; */
+    height: 15.08px;
     width: 1px;
     background-color: black;
     margin: 0 2px;
+}
+
+/* responsive work starts from here */
+/* width is 1920px */
+@media(width=1920px){
+    .ProductDisplayCard {
+        width: 331.25px;
+        border: 3.75px solid white;
+        border-radius: 18.75px;
+    }
+
+    .ProductDisplayCardTop {
+        height: 422.5px;
+        /* border-radius: 15px 15px 0 0; */
+    }
+
+    .ProductDisplayCardTop-Container .productImage {
+        /* border: 1px solid black; */
+        height: 268.75px;
+        width: 268.75px;
+    }
+
+    .heartAndEye {
+        /* margin: 0vh 0 20vh 14.5vw; */
+        margin: 0 0 188.5px 278.4px;
+    }
+
+    .heartIcon {
+        /* height: 3vh; */
+        height: 28.275px;
+        /* width: 3vh; */
+        width: 28.275px;
+        /* margin-bottom: 3vh; */
+        margin-bottom: 28.275px;
+    }
 }

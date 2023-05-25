@@ -1,26 +1,59 @@
-.AllCategoriesDropDown{
+.AllCategoriesDropDown {
     position: absolute;
     z-index: +1;
     background-color: white;
-    margin-top: 12.5vh;
+    /* margin-top: 12.5vh; */
+    margin-top: 94.25px;
     border: 0.5px solid #CDCDCD;
-    padding: 2vh 1vw 2vh 1vw;
+    /* padding: 2vh 1vw 2vh 1vw; */
+    padding: 15.08px 15.36px 15.08px 15.36px;
     border-radius: 0 5px 5px 5px;
-    width: 20vw;
+    /* width: 20vw; */
+    width: 307.2px;
 }
 
-.AllCategoriesDropDown-TopLeftCorner{
-    height: 2vh;
-    width: 2vh;
+.AllCategoriesDropDown-TopLeftCorner {
+    /* height: 2vh;
+    width: 2vh; */
+    height: 15.08px;
+    width: 15.08px;
     border-top: 1px solid #CDCDCD;
     border-left: 1px solid #CDCDCD;
     position: absolute;
-    margin: -3.2vh 0 0 -0.8vw;
+    /* margin: -3.2vh 0 0 -0.8vw; */
+    margin: -24.128px 0 0 -12.29px;
     rotate: 45deg;
     z-index: +2;
     background-color: white;
 }
 
-.AllCategoriesDropDown-ShopLink{
+.AllCategoriesDropDown-ShopLink {
     text-decoration: none;
+}
+
+/* responsive design starts here */
+/* responsive for width 1920px */
+@media(width=1920) {
+    .AllCategoriesDropDown {
+        background-color: white;
+        /* margin-top: 12.5vh; */
+        margin-top: 117.81px;
+        border: 0.5px solid #CDCDCD;
+        /* padding: 2vh 1vw 2vh 1vw; */
+        padding: 18.85px 19.2px 18.85px 19.2px;
+        border-radius: 0 6.25px 6.25px 6.25px;
+        /* width: 20vw; */
+        width: 384px;
+    }
+
+    .AllCategoriesDropDown-TopLeftCorner {
+        /* height: 2vh;
+    width: 2vh; */
+        height: 18.85px;
+        width: 18.85px;
+        border-top: 1px solid #CDCDCD;
+        border-left: 1px solid #CDCDCD;
+        /* margin: -3.2vh 0 0 -0.8vw; */
+        margin: -30.16px 0 0 -15.36px;
+    }
 }
