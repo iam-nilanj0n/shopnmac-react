@@ -49,6 +49,8 @@ export default function ProductDetails() {
     return (
         <div className='ProductDetails'>
             <HeaderComponent />
+
+            {/* ProductDetails main component starts from here */}
             <main className='ProductDetailsMain'>
 
                 <section className='ProductDetailsMain-Section'>
@@ -145,6 +147,9 @@ export default function ProductDetails() {
 
                 </section>
             </main>
+
+
+            {/* Common footer component starts from here */}
             <FooterComponent />
         </div>
     )

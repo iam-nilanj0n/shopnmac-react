@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: 0;
 }
 
 .Cart-ContinueShopping-Button:hover{
@@ -53,4 +54,9 @@
 }
 .Cart-ContinueShopping-Button span{
     margin-left: 5px;
+}
+
+.leftArrowIcon{
+    height: 24px;
+    width: 24px;
 }

@@ -1,0 +1,339 @@
+.Payment-Main {
+    height: auto;
+}
+
+.Payment-Main-section {
+    height: auto;
+    margin: 5vh 8vw 5vh 8vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Payment-Main-Heading {
+    font-size: 24px;
+    color: rgba(42, 37, 94, 1);
+    line-height: 40px;
+    font-weight: 500;
+}
+
+
+/* Payment-Main-Section-Top starts here */
+.Payment-Main-Section-Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.BillingAddress-Heading,
+.ShippingAddress-Heading {
+    font-size: 18px;
+    color: rgba(213, 110, 41, 1);
+    font-weight: 400;
+    line-height: 19.8px;
+    margin: 15px 0;
+}
+
+.BillingAddress-Div {
+    margin-right: 10vw;
+}
+
+.BillingAddress-UserName,
+.ShippingAddress-UserName {
+    color: rgba(51, 51, 51, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.7px;
+    margin: 15px 0;
+}
+
+.BillingAddress,
+.ShippingAddress {
+    list-style: none;
+}
+
+.BillingAddress li,
+.ShippingAddress li {
+    color: rgba(102, 102, 102, 1);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.paymentHr-Separate {
+    height: 0.8px;
+    width: 82vw;
+    background-color: #CDCDCD;
+}
+
+/* Payment-Main-Section-Bottom starts here */
+.Payment-Main-Section-Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5vh 0 0 0;
+}
+
+.Coupon-Discount-Heading {
+    font-size: 24px;
+    line-height: 26.4px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 500;
+}
+
+.Coupon-Discount-subHeading {
+    font-size: 16px;
+    line-height: 22.86px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 300;
+}
+
+.LeftPart-Coupon-Discount-Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 3vw;
+}
+
+.LeftPart-Coupon-Discount-Div input {
+    outline: none;
+    padding: 8px 0 8px 12px;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 300;
+    border: 1px solid #CDCDCD;
+    margin-right: 20px;
+}
+
+.applyCoupon-Button {
+    border: 1px solid rgba(34, 34, 34, 1);
+    background-color: white;
+    padding: 8px 12px;
+    color: rgba(34, 34, 34, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.applyCoupon-Button:hover{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    cursor: pointer;
+}
+.RightPart-Payment-Details {
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+/*  table-responsive starts here*/
+.table-responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 58vw;
+    border: 1px solid #CDCDCD;
+}
+
+.table-Headings,
+.table-Details,
+.table-cartTotal,
+.table-shippingCharge,
+.table-totalPay {
+    width: 57.5vw;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+.table-Headings {
+    padding: 10px 0.25vw;
+}
+
+.table-Details {
+    padding: 10px 0.25vw;
+}
+
+.table-Headings,
+.table-Details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-cartTotal,
+.table-shippingCharge,
+.table-totalPay {
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0.25vw;
+}
+
+.table-cartTotal b,
+.table-shippingCharge b,
+.table-totalPay b {
+    margin-right: 3vw;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+/* paymentForm-Part starts here */
+.paymentForm-Part {
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 6vh 0 0 0;
+}
+
+#paymentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 58vw;
+}
+
+#paymentForm label {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(51, 51, 51, 1);
+    line-height: 22.86px;
+}
+
+#paymentForm input {
+    padding: 6px 12px;
+    border: 1px solid #CDCDCD;
+    outline: none;
+    font-size: 18px;
+}
+
+#paymentForm .firstNLastName {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.5vh;
+}
+
+#paymentForm .firstNLastName div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#paymentForm .firstNLastName .firstName {
+    margin-right: 2vw;
+}
+
+#paymentForm .firstNLastName input {
+    width: 26vw;
+}
+
+.CreditCardNumber-Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.5vh;
+}
+
+.CreditCardNumber-Div input {
+    width: 55.6vw;
+}
+
+.expiryDate-Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.5vh;
+}
+
+.expiryDate-monthYear {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.expiryDate-Div select {
+    width: 27.65vw;
+    padding: 6px 12px;
+    border: 1px solid #CDCDCD;
+    color: rgba(51, 51, 51, 1);
+    font-size: 18px;
+}
+
+#monthSelect {
+    margin-right: 2vw;
+}
+
+.cvc-Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.5vh;
+}
+
+.cvc-Div input {
+    width: 55.6vw;
+}
+
+.otpAndTermsCondition-Div {
+    display: flex;
+    flex-direction: column;
+}
+
+.otpAndTermsCondition-Div-Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1vh 0;
+}
+
+.otpAndTermsCondition-Div-Top input {
+    width: 50.75vw;
+}
+
+.otpAndTermsCondition-Div-Top .OTP-Button {
+    border: 0;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgba(59, 169, 224, 1);
+    color: white;
+    padding: 2px 8px;
+}
+
+.otpAndTermsCondition-Div-Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.otpAndTermsCondition-Div-Bottom input {
+    margin: 7px 10px 0 0;
+}
+
+.otpAndTermsCondition-Div-Terms {
+    font-size: 16px;
+}
+
+.payNow-Button {
+    border: 0;
+    background-color: #842D25;
+    color: white;
+    font-size: 16px;
+    padding: 6px 30px;
+    margin: 3vh 0 0 0;
+}

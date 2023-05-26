@@ -3,6 +3,7 @@ import './Cart.css';
 import HeaderComponent from '../../LayOutComponents/HeaderComponent/HeaderComponent';
 import FooterComponent from '../../LayOutComponents/FooterComponent/FooterComponent';
 import { useNavigate } from 'react-router-dom';
+import leftArrowIcon from '../../../assets/leftArrow-icon.png'
 
 export default function Cart() {
 
@@ -35,7 +36,7 @@ export default function Cart() {
       </main>
 
       <button onClick={(e)=> navigate('/')} className='Cart-ContinueShopping-Button'>
-        <i className='fas fa-long-arrow-alt-left' style={{fontSize: '24px',color:'white'}}></i>
+        <img src={leftArrowIcon} alt='leftArrowIcon' className='leftArrowIcon'/>
         <span>
           Continue shopping
         </span>
