@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-basic-form.github.io/static/css/main.42b6abe5.css",
-    "main.js": "/react-basic-form.github.io/static/js/main.b6a8613a.js",
-    "index.html": "/react-basic-form.github.io/index.html",
-    "main.42b6abe5.css.map": "/react-basic-form.github.io/static/css/main.42b6abe5.css.map",
-    "main.b6a8613a.js.map": "/react-basic-form.github.io/static/js/main.b6a8613a.js.map"
+    "main.css": "/react-theme-toggler.github.io/static/css/main.c30fab1b.css",
+    "main.js": "/react-theme-toggler.github.io/static/js/main.46de4ab2.js",
+    "index.html": "/react-theme-toggler.github.io/index.html",
+    "main.c30fab1b.css.map": "/react-theme-toggler.github.io/static/css/main.c30fab1b.css.map",
+    "main.46de4ab2.js.map": "/react-theme-toggler.github.io/static/js/main.46de4ab2.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b6abe5.css",
-    "static/js/main.b6a8613a.js"
+    "static/css/main.c30fab1b.css",
+    "static/js/main.46de4ab2.js"
   ]
 }
